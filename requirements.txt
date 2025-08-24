@@ -1,0 +1,5 @@
+python-telegram-bot
+pycountry
+asyncio
+requests
+python-dateutil
