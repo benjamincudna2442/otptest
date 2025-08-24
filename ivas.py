@@ -26,7 +26,7 @@ except ImportError:
     except ImportError:
         brotli = None
 
-BOT_TOKEN = "8499568371:AAGVWDICZytmys5X_Trh02-Kxq0hzrfk0-g"
+BOT_TOKEN = "8499568371:AAEtrOMVYcoYHYWVgeViPerpWdn0SDrbQjs"
 CHAT_IDS = ["-1002796548432"]
 TIMEOUT = (15, 45)
 MAX_RETRIES = 3
@@ -702,4 +702,5 @@ if __name__ == "__main__":
     except KeyboardInterrupt:
         print("🛑 Bot stopped by user")
     except Exception as e:
+
         print(f"💀 Fatal error: {e}")
